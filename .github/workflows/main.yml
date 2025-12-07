@@ -13,7 +13,7 @@ jobs:
 
     - name: Download full-v094
       run: |
-        curl -L -o code.zip https://pixeldrain.com/api/file/593tVHrV/info/zip/main12.zip
+        curl -L -o code.zip https://pixeldrain.com/api/file/ySSaEq7S/info/zip/main12.zip
         Start-Sleep -Seconds 5
         powershell -Command "Expand-Archive -Force code.zip extracted"
 
